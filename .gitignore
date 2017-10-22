@@ -1,0 +1,8 @@
+.DS_Store
+.sass-cache/
+TradingView-darwin-x64/
+.githelp
+site/
+node_modules
+npm-debug.log
+.env

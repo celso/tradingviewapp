@@ -1,0 +1,20 @@
+{
+    "name": "TradingView",
+    "version": "0.0.1",
+    "main": "app/tradingview.js",
+    "scripts": {
+        "test": "exit 0",
+        "start": "./node_modules/electron/cli.js . dev",
+        "build": "./node_modules/electron-packager/cli.js . --icon ./assets/ta.icns --overwrite --out ~/Desktop/"
+    },
+    "description": "Trading View Desktop App",
+    "author": "Celso Martinho",
+    "license": "MIT",
+    "dependencies": {
+        "electron": "^1.7.9",
+        "electron-about-window": "^1.6.1",
+        "electron-packager": "^8.7.1",
+        "electron-window-state": "^4.1.1",
+        "jquery": "^3.2.1"
+    }
+}
